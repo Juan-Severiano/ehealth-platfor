@@ -34,7 +34,7 @@ body {
   height: 50px;
   width: 50px;
   border: none;
-  background-color: #206fad;
+  background-color: transparent;
   transform: scale(2);
 }
 #menu-hamburger:hover{
@@ -114,10 +114,11 @@ body {
   padding: 10px 0px;
 }
 .login .form .input{
+  padding: 3px;
   width: 100%;
   height: 35px;
 }
-.login .form .login-buttom{
+.login-buttom{
   padding: 10px;
   width: 195px;
   height: 45px;
@@ -125,7 +126,7 @@ body {
   background-color: #206fad;
   margin-top: 20px;
 }
-.login .form .login-buttom:hover{
+.login-buttom:hover{
   background-color: #155586;
   transition: all 300ms ease-in-out;
   transform: scale(1.1);
@@ -152,4 +153,9 @@ body {
   background-color: #446e22;
   transition: all 300ms ease-in-out;
   transform: scale(1.1);
+}
+.password{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

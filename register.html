@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="shortcut icon" href="src/img/logo.png" type="image/x-icon">
+        <script defer src="src/js/script.js"></script>
+        <link href='https://css.gg/close.css' rel='stylesheet'>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+            />
+        <title>Register | eHealth Monitor</title>
+    </head>
+    <body>
+        <button id="menu-hamburger">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
+
+        <!-- <i class="gg-close"></i> -->
+
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="src/img/logo.png" alt="ehealth-monitor-logo">
+                    <img src="src/img/teste.png" alt="ehealth-monitor-logo-text"
+                        class="text">
+                </a>
+            </div>
+        </header>
+        <div class="menu">
+            <div>
+                <img src="src/img/ehealth2.png" alt="ehealth">
+                <nav>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">My Fic</a></li>
+                        <li><a href="#">Contact-us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <button><h2>Login -></h2></button>
+        </div>
+        <main class="container">
+            <div class="login">
+                <h1>Welcome</h1>
+                <br>
+                <hr>
+                <br>
+                <form action="" class="form">
+                    <h3><label for="iusername">Username</label><br>
+                    <input type="text" name="name"
+                        id="iusername" placeholder="Your username here" class="input">
+                    </h3>
+                    <h3>
+                        <label for="iemail">E-mail</label><br>
+                        <input type="email" name="email" id="iemail" placeholder="Your best email here" class="input">
+                    </h3>
+                    <div class="password">
+                        <h3>
+                            <label for="password">Password</label><br>
+                            <input type="password" name="password" id="password" placeholder="Your password here"class="input">
+                        </h3>
+                        <h3>
+                            <label for="irpassword">Repeat Password</label><br>
+                            <input type="password" name="rpassword" id="irpassword" placeholder="Repeat your password here"class="input">
+                        </h3>
+                    </div>
+                    
+                    <h3>
+                        <input type="submit" value="Register" class="login-buttom" >
+                    </h3>
+                </form>
+
+                <div class="register">
+                    <h2>Já possui uma conta?</h2>
+                    <a href="login.html"><button class="login-buttom"><h3>Login</h3></button></a>
+                </div>
+                
+            </div>
+        </main>
+    </body>
 </html>
