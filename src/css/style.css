@@ -101,8 +101,10 @@ body {
 .login{
   padding: 10px;
   height: calc(100vh - 100px);
-  /* background-color: blueviolet; */
   width: 800px;
+}
+.login h1{
+  padding-top: 30px;
 }
 .login .form{
   display: flex;
@@ -120,5 +122,34 @@ body {
   width: 195px;
   height: 45px;
   border: none;
+  background-color: #206fad;
+  margin-top: 20px;
+}
+.login .form .login-buttom:hover{
+  background-color: #155586;
+  transition: all 300ms ease-in-out;
+  transform: scale(1.1);
+}
+.login .register{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.login .register h2{
+  padding-top: 30px;
+}
+.login .register button{
+  padding: 10px;
+  width: 195px;
+  height: 45px;
+  border: none;
   background-color: #619735;
+  margin-top: 20px;
+}
+.login .register button:hover{
+  background-color: #446e22;
+  transition: all 300ms ease-in-out;
+  transform: scale(1.1);
 }
