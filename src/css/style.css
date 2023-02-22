@@ -136,7 +136,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
+  margin-bottom: 30px;
+  /* padding-top: 30px; */
 }
 .login .register h2{
   padding-top: 30px;
