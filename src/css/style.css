@@ -198,6 +198,9 @@ body {
 #send-buttom{
   margin-right: 0;
 }
+#send-buttom-text{
+  background-color: #619735;
+}
 .line-chart{
   width: 800px;
   height: 300px;
