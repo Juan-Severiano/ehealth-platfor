@@ -205,3 +205,8 @@ body {
   width: 800px;
   height: 300px;
 }
+@media (max-width: 480px) {
+  .text{
+    display: none;
+  }
+}
