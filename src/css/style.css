@@ -91,6 +91,7 @@ body {
   transition: all 300ms ease-in-out;
 }
 .container {
+  /* background-color: #155586; */
   padding: 50px;
   height: 100vh;
   display: flex;
@@ -99,6 +100,10 @@ body {
   align-items: center;
   z-index: 1;
   position: relative;
+}
+#credentials{
+  display: flex;
+  flex-direction: column;
 }
 .container img {
   height: 400px;
@@ -182,7 +187,7 @@ body {
 .footer{
   margin-bottom: 0;
   height: 100px;
-  background-color: #206fad;
+  background-color: rgb(32, 111, 172);
   position: relative;
 }
 #contact-us .login h1{
@@ -192,4 +197,8 @@ body {
 }
 #send-buttom{
   margin-right: 0;
+}
+.line-chart{
+  width: 800px;
+  height: 300px;
 }
