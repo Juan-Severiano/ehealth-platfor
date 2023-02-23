@@ -34,19 +34,57 @@
         </header>
         <div class="menu">
             <div>
-                <img src="src/img/ehealth2.png" alt="ehealth">
+                <a href="index.html">
+                    <img src="src/img/ehealth2.png" alt="ehealth">
+                </a>
                 <nav>
                     <ul>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="#about-us">About us</a></li>
                         <li><a href="#">My Fic</a></li>
-                        <li><a href="#">Contact-us</a></li>
+                        <li><a href="#contact-us">Contact-us</a></li>
                     </ul>
                 </nav>
             </div>
             <button><h2><a href="login.html">Login -></a></h2></button>
         </div>
-        <main class="container">
+        <main class="container section">
             <img src="src/img/ehealth-.png" alt="ehealth-monitor-logo">
         </main>
-    </body>
-</html>
+        <section class="section bg-blue" id="about-us">
+
+        </section>
+        <section class="section bg-white">
+            <main class="container" id="contact-us">
+                <div class="login">
+                    <h1>CONTACT-US</h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <form action="" class="form">
+                        <h3><label for="iuname">Your Name</label><br>
+                            <input type="text" name="name"
+                                id="iuname" placeholder="Your name here"
+                                class="input">
+                        </h3>
+                        <h3>
+                            <label for="iemail">E-mail</label><br>
+                            <input type="email" name="email" id="iemail"
+                                placeholder="Your best email here"
+                                class="input">
+                        </h3>
+                        <h3>
+                            <label for="itext">Your menssage here</label>
+                            <input type="text" maxlength="150" placeholder="Send your mensage here" class="input-text">
+                        </h3>
+                        <h3>
+                            <input type="submit" value="Send"
+                                class="login-buttom" id="send-buttom">
+                        </h3>
+                    </form>
+                </main>
+            </section>
+            <footer class="footer">
+
+            </footer>
+        </body>
+    </html>

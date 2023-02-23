@@ -1,11 +1,14 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 body {
   display: flex;
   flex-direction: column;
 }
 .header {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
   height: 100px;
   background-color: #206fad;
   display: flex;
@@ -14,7 +17,7 @@ body {
   align-items: center;
   color: #fff;
   z-index: 2;
-  position: relative;
+  position: fixed;
 }
 .header .logo {
   display: flex;
@@ -28,7 +31,7 @@ body {
 }
 #menu-hamburger {
   z-index: 5;
-  position: absolute;
+  position: fixed;
   margin-top: 25px;
   margin-left: 25px;
   height: 50px;
@@ -37,8 +40,8 @@ body {
   background-color: transparent;
   transform: scale(2);
 }
-#menu-hamburger:hover{
-    transform: scale(2.1);
+#menu-hamburger:hover {
+  transform: scale(2.1);
 }
 .menu {
   padding: 20px;
@@ -54,6 +57,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  position: fixed;
 }
 .menu img {
   min-height: 250px;
@@ -70,8 +74,8 @@ body {
 .menu nav ul li {
   padding: 10px;
 }
-.menu nav ul li:hover{
-    transform: scale(1.1);
+.menu nav ul li:hover {
+  transform: scale(1.1);
 }
 .menu button {
   width: 200px;
@@ -87,38 +91,44 @@ body {
   transition: all 300ms ease-in-out;
 }
 .container {
-  /* background-color: aqua; */
-  height: calc(100vh - 100px);
+  padding: 50px;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   z-index: 1;
+  position: relative;
 }
 .container img {
   height: 400px;
 }
-.login{
+.login {
   padding: 10px;
   height: calc(100vh - 100px);
   width: 800px;
 }
-.login h1{
+.login h1 {
   padding-top: 30px;
 }
-.login .form{
+.login .form {
   display: flex;
   flex-direction: column;
 }
-.login .form h3{
+.login .form h3 {
   padding: 10px 0px;
 }
-.login .form .input{
+.login .form .input {
   padding: 3px;
   width: 100%;
   height: 35px;
 }
-.login-buttom{
+.login .form .input-text{
+  padding: 3px;
+  width: 100%;
+  height: 50px;
+}
+.login-buttom {
   padding: 10px;
   width: 195px;
   height: 45px;
@@ -126,12 +136,12 @@ body {
   background-color: #206fad;
   margin-top: 20px;
 }
-.login-buttom:hover{
+.login-buttom:hover {
   background-color: #155586;
   transition: all 300ms ease-in-out;
   transform: scale(1.1);
 }
-.login .register{
+.login .register {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -139,10 +149,10 @@ body {
   margin-bottom: 30px;
   /* padding-top: 30px; */
 }
-.login .register h2{
+.login .register h2 {
   padding-top: 30px;
 }
-.login .register button{
+.login .register button {
   padding: 10px;
   width: 195px;
   height: 45px;
@@ -150,13 +160,36 @@ body {
   background-color: #619735;
   margin-top: 20px;
 }
-.login .register button:hover{
+.login .register button:hover {
   background-color: #446e22;
   transition: all 300ms ease-in-out;
   transform: scale(1.1);
 }
-.password{
+.password {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.section {
+  height: 100vh;
+}
+.bg-blue {
+  background-color: #206fad;
+}
+.bg-white {
+  background-color: #fff;
+}
+.footer{
+  margin-bottom: 0;
+  height: 100px;
+  background-color: #206fad;
+  position: relative;
+}
+#contact-us .login h1{
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#send-buttom{
+  margin-right: 0;
 }
