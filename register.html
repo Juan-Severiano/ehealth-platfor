@@ -35,7 +35,7 @@
         <div class="menu">
             <div>
                 <a href="index.html">
-                    <img src="src/img/ehealth2.png" alt="ehealth">
+                    <img src="src/img/ehealth2.png" alt="ehealth" id="img">
                 </a>
                 <nav>
                     <ul>
@@ -61,6 +61,12 @@
                     <h3>
                         <label for="iemail">E-mail</label><br>
                         <input type="email" name="email" id="iemail" placeholder="Your best email here" class="input">
+                    </h3>
+                    
+                    <h3>
+                        <script src="src/js/mask.js"></script>
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" maxlength="15" onkeyup="handlePhone(event)" required placeholder="(xx) xxxx-xxxx" class="input"/>
                     </h3>
                     <div class="password">
                         <h3>
