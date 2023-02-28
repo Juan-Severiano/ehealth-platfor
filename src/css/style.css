@@ -256,7 +256,7 @@ h1{
 .pacient{
 	border-radius: .4rem;
     margin: 0px ;
-    background-color: #cecece;
+    background-color: #afafaf;
     height: 350px;
     width: 300px;
     display: flex;
@@ -277,7 +277,7 @@ h1{
 	margin: 10px;
   width: 200px;
   border-radius: 50%;
-  background-color: #afafaf;
+  background-color: #cecece;
 }
 .pacient-footer{
 	margin-bottom: 0;
