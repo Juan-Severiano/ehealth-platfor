@@ -242,6 +242,7 @@ h1{
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .list-pacients{
   	margin: 10px;
@@ -262,6 +263,10 @@ h1{
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    transition: all 300ms ease-in-out;
+}
+.pacient:hover{
+  transform: scale(1.02);
 }
 .pacient h1{
   font-size: larger;
@@ -273,10 +278,6 @@ h1{
   width: 200px;
   border-radius: 50%;
   background-color: #afafaf;
-}
-.details{
-	/* background-color: #446e22; */
-	padding-top: 0;
 }
 .pacient-footer{
 	margin-bottom: 0;
@@ -291,6 +292,40 @@ h1{
 }
 #img{
   max-height: 100px;
+}
+.pacient-view {
+  border-radius: 20px;
+  width: 100%;
+  background-color: #cecece;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.pacient-view img{
+  margin: 20px;
+  max-width: 100px;
+  margin-left: 100px;
+}
+.ig{
+  display: flex;
+  align-items: center;
+}
+.ig h1{
+  font-size: 25px;
+  padding: 10px;
+}
+.pacient-view .details{
+  margin: 20px;
+  padding: 10px;
+}
+.pacient-view .line-chart{
+  max-width: 800px;
+  max-height: 300px;
+}
+.batiments{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
 @media (max-width: 480px) {
   .text{
