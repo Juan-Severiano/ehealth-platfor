@@ -211,8 +211,8 @@ h1{
   background-color: #619735;
 }
 .line-chart{
-  max-width: 800px;
-  max-height: 300px;
+  width: 100%;
+  height: 100%;
 }
 .content{
   margin-top: 100px;
@@ -310,9 +310,10 @@ h1{
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
+  justify-content: center;
 }
 .pacient-view img{
-  margin: 20px;
+  margin-top: 20px;
   max-width: 100px;
   margin-left: 100px;
 }
@@ -362,7 +363,29 @@ h1{
   max-height: 300px;
 }
 .batiments{
+  height: 400px;
   display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.notes{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.note-content{
+  height: 300px;
+  width: 75%;
+  background-color: #ffff64;
+  padding: 0 50px;
+}
+.note-header{
+  font-weight: bold;
+  display: flex;
+  align-items: center;
   justify-content: center;
   padding: 10px;
 }
@@ -370,10 +393,10 @@ h1{
   .text{
     display: none;
   }
-  .line-chart{
-    max-width: 100px;
-    max-height: 100px;
-  }
+  /* .line-chart{
+    max-width: 300px;
+    max-height: 150px;
+  } */
   .pacient-view img{
     margin-left: 5px;
   }
