@@ -177,6 +177,9 @@ h1{
   flex-direction: row;
   justify-content: space-between;
 }
+.password .input{
+  width: 300px;
+}
 .section {
   height: 100vh;
   display: flex;
@@ -383,5 +386,8 @@ h1{
   }
   .login{
     width: 300px;
+  }
+  .password .input{
+    max-width: 110px;
   }
 }
