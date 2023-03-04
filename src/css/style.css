@@ -208,8 +208,8 @@ h1{
   background-color: #619735;
 }
 .line-chart{
-  width: 800px;
-  height: 300px;
+  max-width: 800px;
+  max-height: 300px;
 }
 .content{
   margin-top: 100px;
@@ -366,5 +366,19 @@ h1{
 @media (max-width: 480px) {
   .text{
     display: none;
+  }
+  .line-chart{
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .pacient-view img{
+    margin-left: 5px;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .pacient-view .details{
+    display: block;
+    padding: 0;
   }
 }
