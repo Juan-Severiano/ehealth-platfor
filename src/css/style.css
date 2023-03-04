@@ -1,11 +1,10 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 body {
   display: flex;
   flex-direction: column;
 }
 h1{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat';
   font-size: 40px;
 }
 .header {
@@ -222,12 +221,20 @@ h1{
   flex-direction: row;
 }
 .pacients-buttom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 10px;
   padding: 10px;
-  height: 200px;
+  height: 100px;
   width: 200px;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
   background-color: #155586;
   color: #fff;
+}
+.pacients-buttom:hover{
+  transform: scale(1.02);
 }
 .new-pacient{
   padding: 10px;
@@ -311,13 +318,42 @@ h1{
   align-items: center;
 }
 .ig h1{
-  font-size: 25px;
-  padding: 10px;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.ig h6{
+  font-family: 'Montserrat';
+  padding: 0 10px;
 }
 .pacient-view .details{
   margin: 20px;
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
+.pacient-view .details ul li:hover{
+  background-color: #155586;
+}
+.btn{
+  margin-left: 10px;
+  margin-right: 10px;
+  max-height: 100px;
+  max-width: 200px;
+}
+/* 
+.pacient-view .details ul li{
+  padding: 10px;
+  
+}
+.pacient-view .details ul li:hover{
+  background-color: #155586;
+  cursor: pointer;
+} */
 .pacient-view .line-chart{
   max-width: 800px;
   max-height: 300px;
@@ -325,7 +361,7 @@ h1{
 .batiments{
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 10px;
 }
 @media (max-width: 480px) {
   .text{
