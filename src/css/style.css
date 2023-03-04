@@ -381,4 +381,7 @@ h1{
     display: block;
     padding: 0;
   }
+  .login{
+    width: 300px;
+  }
 }
