@@ -406,4 +406,7 @@ h1{
   .password .input{
     max-width: 110px;
   }
+  .container img {
+    height: 300px;
+  }
 }
