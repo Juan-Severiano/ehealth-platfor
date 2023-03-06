@@ -12,6 +12,7 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
             />
+        <script src="../src/js/password.js"></script>
         <title>Register | eHealth Monitor</title>
     </head>
     <body>
@@ -54,7 +55,7 @@
                 <br>
                 <hr>
                 <br>
-                <form action="" class="form">
+                <form action="recebedados.html" method="get" class="form" onsubmit="return verificarSenha()">
                     <h3><label for="iusername">Nome de Usuário</label><br>
                     <input type="text" name="name"
                         id="iusername" placeholder="Digite seu nome de usuário aqui" class="input" required>
@@ -78,6 +79,9 @@
                             <label for="irpassword">Repita sua senha</label><br>
                             <input type="password" name="rpassword" id="irpassword" placeholder="Repita sua senha aqui"class="input" required>
                         </h3>
+                    </div>
+                    <div>
+                        <h3 class="mensagem"></h3>
                     </div>
                     
                     <h3>
