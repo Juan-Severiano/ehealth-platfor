@@ -305,12 +305,12 @@ h1{
 }
 .pacient-view {
   border-radius: 20px;
+  min-height: 1500px;
   width: 100%;
   background-color: #cecece;
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
-  justify-content: center;
 }
 .pacient-view img{
   margin-top: 20px;
@@ -349,15 +349,6 @@ h1{
   max-height: 100px;
   max-width: 200px;
 }
-/* 
-.pacient-view .details ul li{
-  padding: 10px;
-  
-}
-.pacient-view .details ul li:hover{
-  background-color: #155586;
-  cursor: pointer;
-} */
 .pacient-view .line-chart{
   max-width: 800px;
   max-height: 300px;
