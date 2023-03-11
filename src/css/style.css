@@ -208,6 +208,7 @@ h1{
 }
 .bg-white {
   background-color:var(--white);
+  color: var(--primary-color-dark);
 }
 .footer{
   margin-bottom: 0;
